@@ -3,3 +3,38 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+figure {
+  font-size: small;
+  text-align: center;
+  align-items: center;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+  color: white;
+}
+a:visited {
+  color: blueviolet;
+}
+
+#details div {
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+
+}
+
+#featured-property p {
+  text-align: center;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
